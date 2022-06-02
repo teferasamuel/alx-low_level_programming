@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Entry point in c programming
  * Return: Ends the function
  */
