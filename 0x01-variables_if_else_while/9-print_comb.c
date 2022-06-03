@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - possible combination of numbers
+ * main - Entry point
  * return: ends the function
  */
 int main(void)
@@ -16,5 +16,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
+	putchar('\n')
 	return (0);
 }
