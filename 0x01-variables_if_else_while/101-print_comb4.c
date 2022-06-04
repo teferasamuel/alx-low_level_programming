@@ -15,19 +15,13 @@ int main(void)
 		{
 			for (ones = tens + 1 ; ones <= 9 ; ones++)
 			{
-				if (hundreds == 7 && tens == 8 && ones == 9)
+				putchar(hundreds + '0');
+				putchar(tens + '0');
+				putchar(ones + '0');
+				if (hundreds < 7)
 				{
-					putchar(hundreds + '0');
-					putchar(tens + '0');
-					putchar(ones + '0');
-				}
-				else
-				{
-					putchar(hundreds + '0');
-					putchar(tens + '0');
-					putchar(ones + '0');
-					putchar(',');
-					putchar(' ');
+				putchar(',');
+				putchar(' ');
 				}
 			}
 		}
